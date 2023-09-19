@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'cas';
+  src: 
+       url('Cascadia.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ka';
+  src: 
+       url('ka1.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'dos';
+  src: 
+       url('Perfect\ DOS\ VGA\ 437.ttf') format('truetype');
+}
+body {
+  background-color: rgb(102, 102, 175);
+}
+#gameArea {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+  }
+  
+  #character {
+    position: absolute;
+   
+    width: 600px;
+    height: 600px;
+  }
+  .space{
+    background-image: url('space3.gif');
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+    border: 3px solid black;
+  }
+  .fire {
+    background-image: url('fire.gif');
+    background-size: cover;
+    top: 80px;
+    right: 73px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+  }
+  .gameNest {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+  }
+  #score {
+    font-family: 'ka';
+    font-weight: normal;
+    color: red;
+    word-break:break-all;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+  }
+  #startMenu {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    border: 3px solid black;
+
+  }
+  #startButton {
+    background-color: transparent;
+    font-size: 55px;
+    font-family: 'ka';
+    color: rgb(255, 0, 0);
+    position: absolute;
+    text-decoration: none;
+    top: 250px;
+    left: 75px;
+    border: 0;
+  }
+  #startButton:hover {
+    cursor: pointer;
+  }
+  #startButton::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  #startButton:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  #gameOverMenu {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    border: 3px solid black;
+
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    font-size: 55px;
+    font-family: 'ka';
+    color: rgb(255, 0, 0);
+    position: absolute;
+    text-decoration: none;
+    top: 50px;
+    left: 90px;
+    border: 0;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 145px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(103, 103, 103);
+    border: 4px solid rgb(50, 50, 50);
+  }
+  li{
+    font-family: 'dos';
+    font-weight: 800;
+    list-style-type: none;
+    color: green;
+
+  }
+  #retryButton {
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'ka';
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-decoration: none;
+    bottom: 0;
+    right: 0;
+    border: 0;
+  }
+  .heart-container {
+    position: relative;
+    height: fit-content;
+    width: 30px;
+  }
+  
+  .full-heart, .empty-heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+  }
+  
+  .pixelate {
+    animation: pixelate 1s forwards;
+  }
+  
+  @keyframes pixelate {
+    0% {
+      filter: none;
+    }
+    100% {
+      filter: url("#pixelate"); /* Add the pixelate effect */
+    }
+  }
+  
+  #hearts {
+    height: 35px;
+    width: 100px;
+    border-radius: 5%;
+    background-color: rgb(46, 83, 164);
+    border: 2px solid rgb(45, 45, 100);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+  }
+  

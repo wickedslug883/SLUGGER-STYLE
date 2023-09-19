@@ -1,0 +1,1057 @@
+/* Colors */
+.transparent {
+    background-color: transparent;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.pink {
+    background-color: pink;
+}
+.green {
+    background-color: green;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: purple;
+}
+.gray {
+    background-color: gray;
+}
+.white {
+    background-color: white;
+}
+.black {
+    background-color: black;
+}
+.beige {
+    background-color: beige;
+}
+.teal {
+    background-color: teal;
+}
+.violet {
+    background-color: violet;
+}
+/* Opacity */
+.p0 {
+    padding: 0;
+}
+.p5 {
+    padding: 5%;
+}
+.p10 {
+    padding: 10%;
+}
+.p15 {
+    padding: 15%;
+}
+.p20 {
+    padding: 20%;
+}
+
+.p25 {
+    padding: 25%;
+}
+.p30 {
+    padding: 30%;
+}
+.p35 {
+    padding: 35%;
+}
+.p40 {
+    padding: 40%;
+}
+.p45 {
+    padding: 45%;
+}
+.p50 {
+    padding: 50%;
+}
+.p55 {
+    padding: 55%;
+}
+.p60 {
+    padding: 60%;
+}
+.p65 {
+    padding: 65%;
+}
+.p70 {
+    padding: 70%;
+}
+.p75 {
+    padding: 75%;
+}
+.p80 {
+    padding: 80%;
+}
+.p85 {
+    padding: 85%;
+}
+.p90 {
+    padding: 90%;
+}
+.p95 {
+    padding: 95%;
+}
+.p100 {
+    padding: 100%;
+}
+.m0 {
+    margin: 0;
+}
+.m5 {
+    margin: 5%;
+}
+.m10 {
+    margin: 10%;
+}
+.m15 {
+    margin: 15%;
+}
+.m20 {
+    margin: 20%;
+}
+
+.m25 {
+    margin: 25%;
+}
+.m30 {
+    margin: 30%;
+}
+.m35 {
+    margin: 35%;
+}
+.m40 {
+    margin: 40%;
+}
+.m45 {
+    margin: 45%;
+}
+.m50 {
+    margin: 50%;
+}
+.m55 {
+    margin: 55%;
+}
+.m60 {
+    margin: 60%;
+}
+.m65 {
+    margin: 65%;
+}
+.m70 {
+    margin: 70%;
+}
+.m75 {
+    margin: 75%;
+}
+.m80 {
+    margin: 80%;
+}
+.m85 {
+    margin: 85%;
+}
+.m90 {
+    margin: 90%;
+}
+.m95 {
+    margin: 95%;
+}
+.m100 {
+    margin: 100%;
+}
+ 
+
+.o5 {
+    opacity: 5%;
+}
+.o10{
+    opacity: 10%;
+}
+.o25 {
+    opacity: 25%;
+}
+.o50 {
+    opacity: 50%;
+}
+.o75 {
+    opacity: 75%;
+}
+/* Dimensions */
+.v5 {
+    width: 5vw;
+    height: 5vh;
+}
+.v10 {
+    width: 10vw;
+    height: 10vh;
+}
+.v15 {
+    width: 15vw;
+    height: 15vh;
+}
+.v20 {
+    width: 20vw;
+    height: 20vh;
+}
+.v25 {
+    width: 25vw;
+    height: 25vh;
+}
+.v30 {
+    width: 30vw;
+    height: 30vh;
+}
+.v33 {
+    width: 33.333vw;
+    height: 33.333vh;
+}
+.v35 {
+    width: 35vw;
+    height: 35vh;
+}
+.v50 {
+    width: 50vw;
+    height: 50vh;
+}
+.v65{
+    width: 65vw;
+    height: 65vh;
+}
+.v70 {
+    width: 70vw;
+    height: 70vh;
+}
+.v75{
+    width: 75vw;
+    height: 75vh;
+}
+.v80{
+    width: 80vw;
+    height: 80vh;
+}
+.v85 {
+    width: 85vw;
+    height: 85vh;
+}
+.v90 {
+    width: 90vw;
+    height: 90vh;
+}
+.v95{
+    width: 95vw;
+    height: 95vh;
+}
+.v100 {
+    width: 100vw;
+    height: 100vh;
+}
+.vw5 {
+    width: 5vw;
+}
+.vw10 {
+    width: 10vw;
+}
+.vw15 {
+    width: 15vw;
+}
+.vw20 {
+    width: 20vw;
+}
+.vw25 {
+    width: 25vw;
+}
+.vw30 {
+    width: 30vw;
+}
+.vw33 {
+    width: 33.333vw;
+}
+.vw35 {
+    width: 35vw;
+}
+.vw50 {
+    width: 50vw;
+}
+.vw65{
+    width: 65vw;
+}
+.vw70 {
+    width: 70vw;
+}
+.vw75{
+    width: 75vw;
+}
+.vw80{
+    width: 80vw;
+}
+.vw85 {
+    width: 85vw;
+}
+.vw90 {
+    width: 90vw;
+}
+.vw95{
+    width: 95vw;
+}
+.vw100 {
+    width: 100vw;
+}
+.vh5 {
+    height: 5vh;
+}
+.vh10 {
+    height: 10vh;
+}
+.vh15 {
+    height: 15vh;
+}
+.vh20 {
+    height: 20vh;
+}
+.vh25 {
+    height: 25vh;
+}
+.vh30 {
+    height: 30vh;
+}
+.vh33 {
+    height: 33.333vh;
+}
+.vh35 {
+    height: 35vh;
+}
+.vh50 {
+    height: 50vh;
+}
+.vh65{
+    height: 65vh;
+}
+.vh70 {
+    height: 70vh;
+}
+.vh75{
+    height: 75vh;
+}
+.vh80{
+    height: 80vh;
+}
+.vh85 {
+    height: 85vh;
+}
+.vh90 {
+    height: 90vh;
+}
+.vh95{
+    height: 95vh;
+}
+.vh100 {
+    height: 100vh;
+}
+.w5 {
+    width: 5%;
+}
+.w10 {
+    width: 10%;
+}
+.w25 {
+    width: 25%;
+}
+.w35 {
+    width: 35%;
+}
+.w50 {
+    width: 50%;
+}
+.w75 {
+    width: 75%;
+}
+.w100 {
+    width: 100%;
+}
+.h5 {
+    height: 5%;
+}
+.h10 {
+    height: 10%;
+}
+.h25 {
+    height: 25%;
+}
+.h35{
+    height: 35%;
+}
+.h50 {
+    height: 50%;
+}
+.h75 {
+    height: 75%;
+}
+.h100 {
+    height: 100%;
+}
+/* Positioning */
+.abs {
+    position: absolute;
+}
+.fxd {
+    position: fixed;
+}
+.rel {
+    position: relative;
+}
+.stk {
+    position: sticky;    
+}
+.itl {
+    position: initial;
+}
+.psc {
+    place-self: center;
+}
+.psr {
+    place-self: right;
+}
+.psl {
+    place-self: left;
+}
+.topr {
+    top: 0;
+    left: 0;
+}
+.topl { 
+    top: 0;
+    left: 0;
+}
+.topc {
+    top: 0;
+    
+}
+.top {
+    top: 0;
+}
+.bottomr {
+    bottom: 0;
+    right: 0;
+}
+.bottoml {
+    bottom: 0;
+    left: 0;
+}
+.bottomc {
+    bottom: 0;
+    
+}
+.bottom {
+    bottom: 0;
+}
+/* Display Type */
+.f {
+    display: flex;
+}
+.fCenter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.fStart {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.fEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.t {
+    display: table;
+}
+.tRG {
+    display: table-row-group;
+}
+.tHG {
+    display: table-header-group;
+}
+.tFG {
+    display: table-footer-group;
+}
+/* Display Orientation */
+
+/* Base Components */
+.container {
+    width: 100%;
+    height: 100%;
+}
+/* Advanced Components */
+.caro {
+    overflow: hidden;
+  }
+  
+  .carotrack {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .caroitem {
+    flex: 0 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .carousel-wrapper {
+    overflow: hidden;
+    width: calc(x / 3 * 3); /* This sets the wrapper to exactly 3 items' worth of width */   
+     overflow: hidden; /* Hide any items that overflow the bounds of the carousel */
+
+  }
+  
+  .carousel {
+    width: 100%;
+  }
+  
+  .carotrack2 {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .caroitem2 {
+    flex: 0 0 calc(100% / 3); /* This will make each item 1/3 of the full width of the carousel */
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #ccc;
+    text-align: center;
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  
+  .caroitem2.selected {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .card-container {
+    perspective: 1000px;
+  }
+  
+  .card {
+    width: 300px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .card-back {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: rotateY(180deg);
+  }
+  /* Main dropdown button */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Nested dropdown */
+  .nested-dropdown {
+    position: relative;
+  }
+  
+  .nested-dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Show nested dropdown when hovering over .nested-trigger */
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: block;
+  }
+  
+  /* Style dropdown links */
+  .dropdown-content a, .nested-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover, .nested-dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  /* Form styles */
+.form-component {
+    width: 100%;
+  }
+  
+  /* Rating styles */
+  .rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  /* Highlight when selected */
+  .rating input:checked ~ label {
+    background-color: #ffcc00;
+  }
+  
+  /* Dropdown styles */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  /* Radio Buttons */
+.radio-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .radio-buttons label {
+    cursor: pointer;
+  }
+  /* Tooltip Container */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip Target */
+  .tooltip-target {
+    cursor: pointer;
+  }
+  
+  /* Tooltip Content */
+  .tooltip-content {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the button */
+    left: 50%;
+    margin-left: -60px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Show Tooltip Content */
+  .tooltip-container:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+  }
+  /* The same as before, with added styles for the individual tooltip pages */
+.ttipnest2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ttip2 {
+    cursor: pointer;
+  }
+  
+  .ttipbook {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .ttippage {
+    display: none;
+  }
+  
+  .ttippage.active {
+    display: block;
+  }
+  .navbar {
+    background: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+/* ... existing styles ... */
+
+.nav-list li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .nav-list li a.active {
+    background: transparent; /* You can adjust this */
+  }
+  
+  .nav-list li .active-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background: #ff4500; /* Or any color you prefer */
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+.menu-toggle {
+    float: left;
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    background-color: white;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px auto;
+}
+/* ... Previous styles ... */
+
+/* Add this new style for the background box under the active item */
+.nav-highlight {
+    position: absolute;
+    height: 100%;
+    background: #444;
+    transition: left 0.4s ease-in-out;
+  }
+  
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-list {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #333;
+        z-index: 1;
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        display: block;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+}
+nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  li a.active {
+    font-weight: bold;
+  }
+  
+  section {
+    height: 100vh;
+    margin-top: 50px;
+    background-color: lightgray;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #fff;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+/* Base Alert Styles */
+.alert {
+    padding: 16px;
+    margin: 8px 0;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+/* Informational Alert */
+.alert-info {
+    background-color: #2196F3;
+}
+
+/* Success Alert */
+.alert-success {
+    background-color: #4CAF50;
+}
+
+/* Warning Alert */
+.alert-warning {
+    background-color: #FF9800;
+    color: #333;  /* Using a darker text color for better readability */
+}
+
+/* Error Alert */
+.alert-error {
+    background-color: #F44336;
+}
+/* Progress Bar */
+.progress {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #4CAF50;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-item {
+    margin: 0 4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.page-item.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+}
+
+.badge-primary {
+    background-color: #007bff;
+}
+
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-error {
+    background-color: #dc3545;
+}
+/* Collapsible/Accordion */
+.collapsible {
+    cursor: pointer;
+  }
+  
+  .collapsible-content {
+    display: none;
+  }
+  
+  /* Toast */
+  .toast {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  /* Spinner/Loader */
+  .spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+  }
+  .carousel-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-slide {
+    min-width: 25%;
+    height: 300px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.4s ease-in;
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* animations */
+  .slide-in {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .slide-in-active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  

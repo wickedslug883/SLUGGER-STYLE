@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slugger.css">
+    <title>Document</title>
+</head>
+<body class="v100 p0 m0">
+    <div class="w75 h75 black o75 p25"></div>
+    <div class="caro h50 w50">
+        <div class="carotrack">
+          <div class="caroitem ">
+            <img src="LOLTRUE.jpg" class="w100 h100">
+          </div>
+          <div class="caroitem">Item 2</div>
+          <div class="caroitem">Item 3</div>
+          <!-- ... -->
+        </div>
+      </div>
+      
+      <div class="carousel-wrapper w100">
+          <div class="carotrack2">
+            <div class="caroitem2">Item 1</div>
+            <div class="caroitem2">Item 2</div>
+            <div class="caroitem2">Item 3</div>
+            <div class="caroitem2">Item 5</div>
+            <div class="caroitem2">Item 6</div>
+            <div class="caroitem2">Item 7</div>
+            <div class="caroitem2">Item 8</div>
+            <!-- Add more items here -->
+          </div>
+      </div>
+      
+      <div class="card-container w100 h100" id="cardContainer">
+        <div class="card h50">
+          <div class="card-front">
+            <div class="card-image">
+              <img src="https://via.placeholder.com/150" alt="Card Image">
+            </div>
+            <div class="card-content">
+              <h2 class="card-title">Card Title</h2>
+              <p class="card-description">This is a sample description for the card component.</p>
+            </div>
+          </div>
+          <div class="card-back">
+            <h2>Back of Card</h2>
+            <p>This is the back of the card.</p>
+          </div>
+        </div>
+        <div class="card h50 w50">
+            <div class="card-front">
+              <div class="card-image">
+                <img src="https://via.placeholder.com/150" alt="Card Image">
+              </div>
+              <div class="card-content">
+                <h2 class="card-title">Card Title</h2>
+                <p class="card-description">This is a sample description for the card component.</p>
+              </div>
+            </div>
+            <div class="card-back">
+              <h2>Back of Card</h2>
+              <p>This is the back of the card.</p>
+            </div>
+          </div>
+      </div>
+      <div class="card-container w100 h100" id="cardContainer">
+        <div class="card h50">
+          <div class="card-front">
+            <div class="card-image">
+              <img src="https://via.placeholder.com/150" alt="Card Image">
+            </div>
+            <div class="card-content">
+              <h2 class="card-title">Card Title</h2>
+              <p class="card-description">This is a sample description for the card component.</p>
+            </div>
+          </div>
+       
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Options</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <div class="nested-dropdown">
+            <a href="#" class="nested-trigger">Nested Options</a>
+            <div class="nested-dropdown-content">
+              <a href="#">Nested Link 1</a>
+              <a href="#">Nested Link 2</a>
+            </div>
+          </div>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Form Component</title>
+        <link rel="stylesheet" href="styles.css">
+      </head>
+      <body>
+        <form class="form-component">
+          <!-- Input Field -->
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+          
+          <!-- Rating Component -->
+          <label for="rating">Rating:</label>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5"></label>
+            
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4"></label>
+            
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3"></label>
+            
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2"></label>
+            
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1"></label>
+          </div>
+          
+          <!-- Dropdown -->
+          <label for="options">Options:</label>
+          <select id="options" name="options">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+      
+          <!-- Radio Buttons -->
+          <label>Favorite Color:</label>
+          <div class="radio-buttons">
+            <input type="radio" id="red" name="color" value="Red">
+            <label for="red">Red</label>
+      
+            <input type="radio" id="green" name="color" value="Green">
+            <label for="green">Green</label>
+      
+            <input type="radio" id="blue" name="color" value="Blue">
+            <label for="blue">Blue</label>
+          </div>
+      
+          <!-- Submit Button -->
+          <button type="submit">Submit</button>
+        </form>
+        <div class="tooltip-container">
+            <button class="tooltip-target">Hover over me</button>
+            <div class="tooltip-content">
+              This is the tooltip text.
+            </div>
+          </div>
+        
+          <div class="tooltip-container">
+            <button class="tooltip-target">Another Button</button>
+            <div class="tooltip-content">
+              Another tooltip text.
+            </div>
+          </div>
+          <div class="ttipnest2">
+            <button class="ttip2">Click me</button>
+            <div class="ttipbook">
+              <div class="ttippage active">Page 1: Info about this.</div>
+              <div class="ttippage">Page 2: More info.</div>
+              <div class="ttippage">Page 3: Even more info.</div>
+            </div>
+          </div>
+          <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul id="navList">
+              <li><a href="#section1">Section 1</a></li>
+              <li><a href="#section2">Section 2</a></li>
+              <li><a href="#section3">Section 3</a></li>
+            </ul>
+          </nav>
+          <section id="section1">Content 1</section>
+          <section id="section2">Content 2</section>
+          <section id="section3">Content 3</section>
+    
+<!-- Button to open modal -->
+<button id="openModalBtn">Open Modal</button>
+
+<!-- Modal Container -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <h2>Modal Title</h2>
+        <p>Some text in the modal.</p>
+    </div>
+</div>
+<div class="slide-in">I will slide in when you scroll down to me!</div>
+
+<!-- Alert Messages -->
+<div class="alert alert-info">
+    This is an informational message.
+</div>
+<div class="alert alert-success">
+    This is a success message.
+</div>
+<div class="alert alert-warning">
+    This is a warning message.
+</div>
+<div class="alert alert-error">
+    This is an error message.
+</div>
+<!-- Progress Bars -->
+<div class="progress">
+    <div class="progress-bar" style="width: 70%;"></div>
+</div>
+
+<!-- Pagination -->
+<nav class="pagination">
+    <a href="#" class="page-item">Previous</a>
+    <a href="#" class="page-item">1</a>
+    <a href="#" class="page-item active">2</a>
+    <a href="#" class="page-item">3</a>
+    <a href="#" class="page-item">Next</a>
+</nav>
+
+<!-- Badges -->
+<span class="badge badge-primary">New!</span>
+<span class="badge badge-success">Success</span>
+<span class="badge badge-error">Error</span>
+
+
+<!-- Collapsible/Accordion -->
+<button class="collapsible">Click me!</button>
+<div class="collapsible-content">
+    <p>Hello World!</p>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast">
+    This is a toast message.
+</div>
+
+<button onclick="showToast()">Show Toast</button>
+
+<div class="slide-in">I will slide in when you scroll down to me!</div>
+
+
+
+<div class="slide-in">I will slide in when you scroll down to me!</div>
+
+
+
+<div class="slide-in">I will slide in when you scroll down to me!</div>
+
+ 
+<div class="carousel-container">
+  <div id="carousel" class="carousel">
+    <div class="carousel-slide" style="background-image: url('LOLTRUE.jpg');">Slide 1</div>
+    <div class="carousel-slide" style="background-image: url('LOLTRUE.jpg');">Slide 2</div>
+    <div class="carousel-slide" style="background-image: url('LOLTRUE.jpg');">Slide 3</div>
+
+    <div class="carousel-slide" style="background-image: url('LOLTRUE.jpg');">Slide 3</div>
+    <!-- ... Add more slides ... -->
+  </div>
+</div>
+<!-- Spinner/Loader -->
+<div class="spinner"></div>
+<script> 
+document.addEventListener('DOMContentLoaded', () => {
+  const carousel = document.getElementById('carousel');
+  const slides = Array.from(carousel.children);
+  let currentIndex = 0;
+
+  // Clone first and last slide to make the carousel infinite
+  const firstSlide = slides[0];
+  const lastSlide = slides[slides.length - 1];
+  carousel.appendChild(firstSlide.cloneNode(true));
+  carousel.insertBefore(lastSlide.cloneNode(true), firstSlide);
+
+  // Initialize
+  carousel.style.transform = `translateX(-25%)`;
+
+  function goToSlide(index) {
+    carousel.style.transform = `translateX(-${(index + 1) * 25}%)`;
+    currentIndex = index;
+  }
+
+  // Move to next slide every 3 seconds
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    goToSlide(currentIndex);
+
+    if (currentIndex === slides.length - 1) {
+      setTimeout(() => {
+        carousel.style.transition = 'none';
+        carousel.style.transform = `translateX(-25%)`;
+        currentIndex = 0;
+      }, 300);
+      setTimeout(() => {
+        carousel.style.transition = 'transform 0.3s ease-in-out';
+      }, 350);
+    }
+  }, 3000);
+});
+
+
+</script>
+      <script src="slided.js"></script>
+      <script src="clps.js"></script>
+      <script src="toast.js"></script>
+      <script src="modal.js"></script>
+      <script src="navwatch.js"></script>
+      <script src='ttip.js'></script>
+      <script src='ttip2.js'></script>
+      <script src="navbar.js"></script>
+      <script src="caro.js"></script>
+      <script src="caro2.js"></script>
+      <script src='card.js'></script>
+      
+</body>
+</html>
